@@ -1,0 +1,54 @@
+.aboutTitle {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
+}
+
+.hrline {
+  width: 5%;
+  margin-left: 0;
+  background-color: black;
+  margin-top: -2.5rem;
+  height: 2px;
+}
+
+.aboutText {
+  font-family: "Quicksand", sans-serif !important;
+  line-height: 1.8rem;
+}
+
+.gridItem {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 1.5rem !important;
+  display: inline-block !important;
+}
+
+.gridDescription {
+  font-family: "Quicksand", sans-serif !important;
+  margin-top: -1rem;
+}
+
+.iconArrow {
+  margin-left: 1rem !important;
+  margin-top: 0.3rem !important;
+  color: #6495ed !important;
+}
+
+.personalTitle {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 599px) {
+  .aboutIntroo {
+    display: none !important;
+  }
+
+  .cardGroupTwo {
+    display: none !important;
+  }
+
+  .rightIconInside {
+    display: none !important;
+  }
+}

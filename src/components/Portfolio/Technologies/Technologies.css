@@ -1,0 +1,31 @@
+.gridTitle {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.gridPara {
+  font-family: "Quicksand", sans-serif !important;
+  margin-top: -1rem;
+}
+
+.gridIcon {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  cursor: pointer;
+}
+
+.gridPara2 {
+  font-family: "Quicksand", sans-serif !important;
+  margin-top: -0.8rem;
+}
+
+.techTitle {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 599px) {
+  .techTitle {
+    margin-top: 6rem !important;
+  }
+}

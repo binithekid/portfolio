@@ -1,0 +1,83 @@
+.modal-backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content-wrapper {
+  position: fixed;
+  width: 600px;
+  height: 500px;
+  background: white;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+}
+
+.ModalImage {
+  width: 100%;
+}
+
+.modalTitle {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 0.6rem;
+  font-weight: 500 !important;
+}
+
+.modalText {
+  font-family: "Quicksand", sans-serif !important;
+  margin-top: -0.7rem;
+  font-size: 0.9rem;
+}
+
+.rightIcon {
+  float: right !important;
+  font-family: "Quicksand", sans-serif !important;
+  background-color: #a52a2a !important;
+  transition: ease 1s;
+}
+
+.rightIcon:hover {
+  opacity: 0.8 !important;
+}
+
+.leftIcon {
+  font-family: "Quicksand", sans-serif !important;
+  transition: ease 1s;
+  background-color: #3cb371 !important;
+}
+
+.lefticon {
+  font-family: "Quicksand", sans-serif !important;
+  transition: ease 1s;
+}
+
+.leftIcon:hover {
+  opacity: 0.8 !important;
+}
+
+.rightIconInside {
+  font-family: "Quicksand", sans-serif !important;
+  transition: ease 1s;
+  margin-left: 1rem !important;
+}
+
+.rightIconInside:hover {
+  opacity: 0.8 !important;
+}
+
+@media (max-width: 599px) {
+  .modal-content-wrapper {
+    width: 85%;
+    height: 420px;
+  }
+}

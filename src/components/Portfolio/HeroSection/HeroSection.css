@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+
+.HeroTitle {
+  font-family: "Teko", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: -4rem;
+}
+
+.titleGroup {
+  margin-top: 10rem !important;
+}
+
+.titleGroup em {
+  color: #87cefa;
+}
+
+.buttonInput {
+  margin-top: 5rem !important;
+}

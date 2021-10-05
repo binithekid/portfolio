@@ -1,0 +1,9 @@
+.trump {
+  color: red;
+}
+
+@media (max-width: 599px) {
+  .divider {
+    height: 4rem !important;
+  }
+}

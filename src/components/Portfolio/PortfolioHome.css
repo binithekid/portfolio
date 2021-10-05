@@ -1,0 +1,13 @@
+.relative {
+  background-color: black !important;
+  width: 100% !important;
+  position: relative !important;
+  margin: 0 !important;
+  z-index: 50 !important;
+}
+
+.absolute {
+  position: absolute !important;
+  inset: 0;
+  justify-items: center;
+}

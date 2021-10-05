@@ -1,0 +1,12 @@
+.CardHeader {
+  color: red;
+}
+
+.cardItem {
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.cardItem:hover {
+  transform: scale(1.02);
+}
