@@ -44,6 +44,10 @@
     display: none !important;
   }
 
+  .aboutTitle {
+    margin-top: 9rem !important;
+  }
+
   .cardGroupTwo {
     display: none !important;
   }

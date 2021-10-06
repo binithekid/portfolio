@@ -65,7 +65,7 @@ const NotesAppModal = forwardRef((props, ref) => {
                 />
               </div>
               <div className='modalTitle'>
-                <h1>Covid-19 Tracker</h1>
+                <h1>Note Book App</h1>
               </div>
               <div className='modalText'>
                 <p>

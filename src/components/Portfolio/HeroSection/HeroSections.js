@@ -48,7 +48,7 @@ function HeroSection() {
       </div>
       <br />
       <Link to='about' smooth={true} duration={1000}>
-        <Button className='buttonInput' variant='outlined'>
+        <Button className='buttonInputTwo' variant='outlined'>
           Learn More
         </Button>
       </Link>

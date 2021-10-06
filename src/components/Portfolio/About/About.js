@@ -16,8 +16,8 @@ function About() {
   });
 
   return (
-    <Container maxWidth='lg' id='about'>
-      <div className='divider' style={{ height: "2rem" }} />
+    <Container maxWidth='lg'>
+      <div className='divider' style={{ height: "2rem" }} id='about' />
 
       <div className='aboutIntro'>
         <p className='aboutTitle'>About Me 👋</p>
