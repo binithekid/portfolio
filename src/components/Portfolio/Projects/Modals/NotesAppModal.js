@@ -79,7 +79,7 @@ const NotesAppModal = forwardRef((props, ref) => {
                 <Grid item xs={6}>
                   <Button
                     target='_blank'
-                    href='https://github.com/binithekid/notesapp/tree/master'
+                    href='https://github.com/binithekid/notes-app/tree/master'
                     variant='contained'
                     startIcon={<GitHubIcon />}
                     className='leftIcon'
@@ -88,7 +88,7 @@ const NotesAppModal = forwardRef((props, ref) => {
                   </Button>
                   <Button
                     target='_blank'
-                    href='https://eager-kare-4a4667.netlify.app/'
+                    href='https://relaxed-franklin-5c2872.netlify.app/'
                     variant='contained'
                     startIcon={<LanguageIcon />}
                     className='rightIconInside'
