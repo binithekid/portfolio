@@ -29,8 +29,8 @@ function Technologies() {
           <Grid item md={6} xs={12} sm={12}>
             <p className='aboutText'>
               I am a front end developer first and foremost, and I use ReactJS
-              mainly, but I also use a number of other technologies and
-              frameworks that benefit my working process
+              mainly as well as TypeScript, but I also use a number of other
+              technologies and frameworks that benefit my working process
             </p>
           </Grid>
           <Grid item md={6} xs={12} sm={12}></Grid>
@@ -46,8 +46,8 @@ function Technologies() {
           />
 
           <h4 className='gridTitle'>Front End</h4>
-          <p className='gridPara'>JavaScript</p>
-          <p className='gridPara2'>ReactJs</p>
+          <p className='gridPara'>JavaScript/React</p>
+          <p className='gridPara2'>TypeScript</p>
           <p className='gridPara2'>HTML/CSS</p>
         </Grid>
         <Grid item xs={6} sm={3}>

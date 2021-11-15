@@ -29,13 +29,13 @@ function About() {
             <p className='aboutText'>
               I am a front end developer with a passion for design! I have over
               5 years of hands-on experience, efficiently coding websites and
-              applications using modern HTML, CSS, and JavaScript/React.
-              Building state-of-the-art, easy to use, user-friendly websites and
-              applications is truly a passion of mine. In addition to my
-              knowledge base, I actively seek out new technologies and industry
-              trends and advancements. This has allowed me to keep up to date
-              with the ever changing world of code and deliver consistently
-              exceptional work.
+              applications using modern HTML, CSS, and JavaScript/React and
+              TypeScript. Building state-of-the-art, easy to use, user-friendly
+              websites and applications is truly a passion of mine. In addition
+              to my knowledge base, I actively seek out new technologies and
+              industry trends and advancements. This has allowed me to keep up
+              to date with the ever changing world of code and deliver
+              consistently exceptional work.
             </p>
           </Grid>
           <Grid item md={6} xs={12} sm={12}></Grid>
