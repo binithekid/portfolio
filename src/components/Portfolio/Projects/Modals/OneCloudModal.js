@@ -11,6 +11,7 @@ import Button from "@mui/material/Button";
 //Material-UI-Icons
 import LanguageIcon from "@mui/icons-material/Language";
 import CancelIcon from "@mui/icons-material/Cancel";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const OneCloudModal = forwardRef((props, ref) => {
   const [open, setOpen] = useState(false);
@@ -77,10 +78,19 @@ const OneCloudModal = forwardRef((props, ref) => {
                 <Grid item xs={6}>
                   <Button
                     target='_blank'
-                    href='https://onecloudmedia.com/'
+                    href='https://github.com/binithekid/onecloudmedia'
+                    variant='contained'
+                    startIcon={<GitHubIcon />}
+                    className='leftIcon'
+                    size='small'>
+                    GitHub
+                  </Button>
+                  <Button
+                    target='_blank'
+                    href='https://vigilant-clarke-d73484.netlify.app/'
                     variant='contained'
                     startIcon={<LanguageIcon />}
-                    className='lefticon'
+                    className='rightIconInside'
                     size='small'>
                     LINK
                   </Button>
