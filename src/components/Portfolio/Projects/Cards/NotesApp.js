@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 //Image
-import NoteBookImage from "../../../../images/notebook.png";
+import ShoppingCart from "../../../../images/shoppingcart.png";
 
 const useStyles = makeStyles({
   fontTitile: {
@@ -32,7 +32,7 @@ function NotesApp() {
           component='img'
           alt='green iguana'
           height='240'
-          image={NoteBookImage}
+          image={ShoppingCart}
         />
         <CardContent>
           <Typography
@@ -40,15 +40,15 @@ function NotesApp() {
             variant='h1'
             component='div'
             className={classes.fontTitile}>
-            Note Book App
+            Shopping Cart
           </Typography>
           <Typography
             variant='body2'
             color='text.secondary'
             className={classes.font}>
-            A simple note app which allows the user to create and store new
-            notes which can be deleted once the task has been completed. This
-            app makes use of local storage to store the data that's been input
+            A simple shopping cart app which allows the user to add and remove
+            products from the cart. This app was made using TypeScript and React
+            and is fully mobile responsive
           </Typography>
         </CardContent>
         <CardActions>

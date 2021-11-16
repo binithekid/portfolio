@@ -4,7 +4,7 @@ import "./Modal.css";
 //Framer-Motion
 import { motion, AnimatePresence } from "framer-motion";
 //Modal-Image
-import NoteBookImage from "../../../../images/notebook.png";
+import ShoppingCart from "../../../../images/shoppingcart.png";
 //Material-UI
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
@@ -59,27 +59,26 @@ const NotesAppModal = forwardRef((props, ref) => {
             <motion.div className='modal-content'>
               <div className='modalImage'>
                 <img
-                  src={NoteBookImage}
+                  src={ShoppingCart}
                   className='ModalImage'
                   alt='ModalImage'
                 />
               </div>
               <div className='modalTitle'>
-                <h1>Note Book App</h1>
+                <h1>Shopping Cart</h1>
               </div>
               <div className='modalText'>
                 <p>
-                  A simple note app which allows the user to create and store
-                  new notes which can be deleted once the task has been
-                  completed. This app makes use of local storage to store the
-                  data that's been input
+                  A simple cart app which allows the user to add and remove
+                  products from the cart. This app was made using TypeScript and
+                  React.
                 </p>
               </div>
               <Grid container spacing={2}>
                 <Grid item xs={6}>
                   <Button
                     target='_blank'
-                    href='https://github.com/binithekid/notes-app/tree/master'
+                    href='https://github.com/binithekid/shoppingcart'
                     variant='contained'
                     startIcon={<GitHubIcon />}
                     className='leftIcon'
@@ -88,7 +87,7 @@ const NotesAppModal = forwardRef((props, ref) => {
                   </Button>
                   <Button
                     target='_blank'
-                    href='https://relaxed-franklin-5c2872.netlify.app/'
+                    href='https://adoring-visvesvaraya-7e2e6a.netlify.app/'
                     variant='contained'
                     startIcon={<LanguageIcon />}
                     className='rightIconInside'
