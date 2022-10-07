@@ -87,7 +87,7 @@ const OneCloudModal = forwardRef((props, ref) => {
                   </Button>
                   <Button
                     target='_blank'
-                    href='https://vigilant-clarke-d73484.netlify.app/'
+                    href='https://onecloudmedia.io/'
                     variant='contained'
                     startIcon={<LanguageIcon />}
                     className='rightIconInside'
